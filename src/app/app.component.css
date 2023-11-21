@@ -1,0 +1,73 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color:rgb(244, 244, 104);
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.todo-container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th,
+tbody td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+th {
+    background-color: #64a8d6;
+    color: #fff;
+}
+td.status {
+    color: #27ae60;
+}
+
+td.status.pending {
+    color: #e74c3c;
+    
+}
+td.status {
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+td.status.pending {
+    color: #e74c3c;
+    background-color: #f9ecec;
+}
+
+td.status.completed {
+    color: #27ae60;
+    background-color: #e0f7e0;
+
+}
